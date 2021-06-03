@@ -48,7 +48,7 @@ Usando la colección `sample_airbnb.listingsAndReviews`, agrega un filtro que pe
 
 </div>
 
-Reto 3: Introducción a las agregaciones
+## Reto 3: Introducción a las agregaciones
 <div style="text-align: justify;">
 
 ### 1. Objetivos  :dart:
