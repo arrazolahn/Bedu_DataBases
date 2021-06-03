@@ -152,7 +152,7 @@ El ejercicio consiste en obtener, por país, el número de películas que hay de
 | USA  | Drama  | 20        |
 | ...  | ...    | ...       |
 	
-´´´json
+```json
 [{
     $unwind: {
         path: "$countries",
@@ -176,6 +176,5 @@ El ejercicio consiste en obtener, por país, el número de películas que hay de
         }
     }
 }]
-	´´´
-
-**¡¡¡MUCHA SUERTE!!!**
+	```
+![S7_Ejercicios](https://user-images.githubusercontent.com/35963381/120707808-11b5fd00-c4bb-11eb-8e48-88487a75c8c8.PNG)
