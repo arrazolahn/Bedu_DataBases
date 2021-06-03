@@ -17,30 +17,40 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
 
 <br/>
 	
-	```json
-	
-	[{$match: {
-  property_type: "House",
-  bedrooms: {$gte: 1}
-}
-}, {$addFields: {
-   costo_recamara: {$divide: ["$price", "$bedrooms"]}
-}}, {$group: {
-  _id: "$address.country",
-  recamaras: {
-     $sum: 1
-  },
-  total: {
-     $sum: "$costo_recamara"
-  }
-}
-}, {$addFields: {
-   costo_promedio: {
-     $divide: ["$total", "$recamaras"]
-   }
-}}]
-	```
+```json
 
+[{
+    $match: {
+        property_type: "House",
+        bedrooms: {
+            $gte: 1
+        }
+    }
+}, {
+    $addFields: {
+        costo_recamara: {
+            $divide: ["$price", "$bedrooms"]
+        }
+    }
+}, {
+    $group: {
+        _id: "$address.country",
+        recamaras: {
+            $sum: 1
+        },
+        total: {
+            $sum: "$costo_recamara"
+        }
+    }
+}, {
+    $addFields: {
+        costo_promedio: {
+            $divide: ["$total", "$recamaras"]
+        }
+    }
+}]
+```
+	
 	
 ## Reto 2: Asociación de colecciones
 
