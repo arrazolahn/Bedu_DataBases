@@ -51,6 +51,7 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
 }]
 ```
 	
+![S7_R1_1](https://user-images.githubusercontent.com/35963381/120674118-11eed200-c494-11eb-9bf2-e3899099ba21.PNG)
 	
 ## Reto 2: Asociación de colecciones
 
