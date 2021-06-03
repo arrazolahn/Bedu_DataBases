@@ -70,10 +70,37 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
 Usando las colecciones `comments` y `users`, se requiere conocer el correo y contraseña de cada persona que realizó un comentario. Construye un pipeline que genere como resultado estos datos.
 
 ```json
+[{
+    $lookup: {
+        from: 'users',
+        localField: 'name',
+        foreignField: 'name',
+        as: 'userData'
+    }
+}, {
+    $addFields: {
+        userData: {
+            $arrayElemAt: ["$userData", 0]
+        }
+    }
+}, {
+    $addFields: {
+        userEmail: "$userData.email",
+        userPassword: "$userData.password"
 
+    }
+}, {
+    $project: {
+        _id: 0,
+        userEmail: 1,
+        userPassword: 1,
+    }
+}]
 	
 ```
-	
+
+	![S7_R2_1](https://user-images.githubusercontent.com/35963381/120699176-5b4d1a80-c4b0-11eb-852b-e5720248baac.PNG)
+
 ---
 
 :warning: **NO CIERRES ESTE *PIPELINE* PUES LO USAREMOS MÁS ADELANTE**
