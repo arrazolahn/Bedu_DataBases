@@ -99,8 +99,6 @@ Usando las colecciones `comments` y `users`, se requiere conocer el correo y con
 	
 ```
 
-	![S7_R2_1](https://user-images.githubusercontent.com/35963381/120699176-5b4d1a80-c4b0-11eb-852b-e5720248baac.PNG)
-
 ---
 
 :warning: **NO CIERRES ESTE *PIPELINE* PUES LO USAREMOS MÁS ADELANTE**
