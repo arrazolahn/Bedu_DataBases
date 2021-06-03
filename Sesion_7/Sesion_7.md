@@ -125,6 +125,7 @@ Usando las colecciones `comments` y `users`, se requiere conocer el correo y con
 ### 3. Desarrollo :rocket:
 
 Usando el *pipeline* que generaste en el Reto 2, genera la vista correspondiente.
+![S7_R3](https://user-images.githubusercontent.com/35963381/120700070-7b310e00-c4b1-11eb-8fb0-ec0a553f2307.PNG)
 
 	
 ## Ejercicios Sesión 7
