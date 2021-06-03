@@ -176,7 +176,7 @@ El ejercicio consiste en obtener, por país, el número de películas que hay de
         }
     }
 }]
-	```
+```
 ---
 
 <br/>
