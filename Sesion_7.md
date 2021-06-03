@@ -69,6 +69,11 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
 
 Usando las colecciones `comments` y `users`, se requiere conocer el correo y contraseña de cada persona que realizó un comentario. Construye un pipeline que genere como resultado estos datos.
 
+```json
+
+	
+```
+	
 ---
 
 :warning: **NO CIERRES ESTE *PIPELINE* PUES LO USAREMOS MÁS ADELANTE**
