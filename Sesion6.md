@@ -50,3 +50,11 @@ Usando la colección `sample_airbnb.listingsAndReviews`, agrega un filtro que pe
 [`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md)
 
 </div>
+
+Reto 3: Introducción a las agregaciones
+1. Objetivos 🎯
+Proyectar columnas sobre distintos documentos para repasar algunos conceptos.
+2. Requisitos 📋
+MongoDB Compass instalado.
+3. Desarrollo 🚀
+Usando la colección sample_airbnb.listingsAndReviews, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
