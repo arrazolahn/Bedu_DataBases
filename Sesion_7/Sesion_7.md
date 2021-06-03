@@ -151,5 +151,31 @@ El ejercicio consiste en obtener, por país, el número de películas que hay de
 | USA  | Short  | 10        |
 | USA  | Drama  | 20        |
 | ...  | ...    | ...       |
+	
+´´´json
+[{
+    $unwind: {
+        path: "$countries",
+        includeArrayIndex: 'index_pais',
+        preserveNullAndEmptyArrays: false
+    }
+}, {
+    $unwind: {
+        path: "$genres",
+        includeArrayIndex: 'index_gen',
+        preserveNullAndEmptyArrays: false
+    }
+}, {
+    $group: {
+        _id: {
+            pais: "$countries",
+            genero: "$genres"
+        },
+        peliculas: {
+            $sum: 1
+        }
+    }
+}]
+	´´´
 
 **¡¡¡MUCHA SUERTE!!!**
