@@ -98,6 +98,7 @@ Usando las colecciones `comments` y `users`, se requiere conocer el correo y con
 }]
 	
 ```
+![S7_R2_1](https://user-images.githubusercontent.com/35963381/120700000-6785a780-c4b1-11eb-91da-f19e4fb7d782.PNG)
 
 ---
 
