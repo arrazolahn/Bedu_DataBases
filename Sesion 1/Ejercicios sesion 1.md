@@ -1,3 +1,4 @@
+   ```sql
 /* 		Ejercicios 1
 		Sesion 1
     Curso BEDU - Data Science
@@ -112,3 +113,4 @@ FROM customers
 WHERE creditLimit != 0
 ORDER BY creditLimit 
 LIMIT 5;
+   ```
