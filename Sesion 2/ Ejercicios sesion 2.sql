@@ -1,3 +1,5 @@
+   ```sql
+
 /* 		Ejercicios 2
 		Sesion 2
     Curso BEDU - Data Science
@@ -227,3 +229,4 @@ Usando la base de datos tienda, escribe consultas que permitan responder las sig
 		FROM puesto AS p
         WHERE e.id_puesto = p.id_puesto) AS puesto
 	FROM empleado AS e;
+   ```
