@@ -45,15 +45,16 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 ![Ejercicios5_9](https://user-images.githubusercontent.com/35963381/120857829-2ad5b100-c582-11eb-942d-e931886994f8.PNG)
   
 10. Obtén la empresa con el menor número de empleados.
-  ![Ejercicios5_10](https://user-images.githubusercontent.com/35963381/120857841-2f01ce80-c582-11eb-9bd3-c69ba4e8b66c.PNG)
+![Ejercicios5_13](https://user-images.githubusercontent.com/35963381/120859139-11356900-c584-11eb-97fe-b35c1c7e2355.PNG)
 
 11. Obtén la empresa con el mayor número de empleados.
-  
+  ![Ejercicios5_10](https://user-images.githubusercontent.com/35963381/120857841-2f01ce80-c582-11eb-9bd3-c69ba4e8b66c.PNG)
+
 12. Obtén el viaje con mayor duración.
-![Ejercicios5_12](https://user-images.githubusercontent.com/35963381/120857884-404adb00-c582-11eb-9dc2-b76cc237d7eb.PNG)
-  
+ ![Ejercicios5_11](https://user-images.githubusercontent.com/35963381/120857860-35904600-c582-11eb-9c45-ae822154117b.PNG)
+ 
 13. Obtén el viaje con menor duración.
-![Ejercicios5_11](https://user-images.githubusercontent.com/35963381/120857860-35904600-c582-11eb-9c45-ae822154117b.PNG)
+![Ejercicios5_12](https://user-images.githubusercontent.com/35963381/120857884-404adb00-c582-11eb-9dc2-b76cc237d7eb.PNG)
 
   
 <br/>
